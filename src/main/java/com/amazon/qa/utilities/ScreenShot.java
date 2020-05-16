@@ -22,6 +22,7 @@ public class ScreenShot extends BaseClass
 		File f=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		File f1=new File("D:\\RESTAPI\\SeleniumPractic\\target\\ScreenShot\\"+"_"+screenshotname+"_"+DateName+".png");
 		FileUtils.copyFile(f, f1);
+		System.out.println("hello");
 		
 		
 	}
