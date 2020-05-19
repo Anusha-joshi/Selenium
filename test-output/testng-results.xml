@@ -1,40 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-05-14T00:57:30 IST" name="Default suite" finished-at="2020-05-14T00:57:53 IST" duration-ms="22792">
+  <suite started-at="2020-05-19T20:10:08 IST" name="Default suite" finished-at="2020-05-19T20:10:08 IST" duration-ms="225">
     <groups>
     </groups>
-    <test started-at="2020-05-14T00:57:30 IST" name="Default test" finished-at="2020-05-14T00:57:53 IST" duration-ms="22792">
-      <class name="com.amazon.qa.extentReport.ExtentReport4">
-        <test-method is-config="true" signature="setExtent()[pri:0, instance:com.amazon.qa.extentReport.ExtentReport4@61230f6a]" started-at="2020-05-14T00:57:30 IST" name="setExtent" finished-at="2020-05-14T00:57:30 IST" duration-ms="240" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setExtent -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.amazon.qa.extentReport.ExtentReport4@61230f6a]" started-at="2020-05-14T00:57:30 IST" name="setup" finished-at="2020-05-14T00:57:48 IST" duration-ms="17814" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="newWindow()[pri:0, instance:com.amazon.qa.extentReport.ExtentReport4@61230f6a]" started-at="2020-05-14T00:57:48 IST" name="newWindow" finished-at="2020-05-14T00:57:50 IST" duration-ms="1785" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- newWindow -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.amazon.qa.extentReport.ExtentReport4@61230f6a]" started-at="2020-05-14T00:57:50 IST" name="teardown" finished-at="2020-05-14T00:57:51 IST" duration-ms="1041" status="PASS">
+    <test started-at="2020-05-19T20:10:08 IST" name="Default test" finished-at="2020-05-19T20:10:08 IST" duration-ms="225">
+      <class name="com.amazon.qa.datafiles.Xls_Reader">
+        <test-method signature="testdata(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.amazon.qa.datafiles.Xls_Reader@7880cdf3]" started-at="2020-05-19T20:10:08 IST" name="testdata" data-provider="mydate" finished-at="2020-05-19T20:10:08 IST" duration-ms="9" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=newWindow status=SUCCESS method=ExtentReport4.newWindow()[pri:0, instance:com.amazon.qa.extentReport.ExtentReport4@61230f6a] output={null}]]]>
+                <![CDATA[bkanushajoshi@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Anu_2020]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[122418]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="end()[pri:0, instance:com.amazon.qa.extentReport.ExtentReport4@61230f6a]" started-at="2020-05-14T00:57:51 IST" name="end" finished-at="2020-05-14T00:57:53 IST" duration-ms="1833" status="PASS">
+        </test-method> <!-- testdata -->
+        <test-method signature="testdata(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.amazon.qa.datafiles.Xls_Reader@7880cdf3]" started-at="2020-05-19T20:10:08 IST" name="testdata" data-provider="mydate" finished-at="2020-05-19T20:10:08 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[anushabk888@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Anu_2020]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[122418]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- end -->
-      </class> <!-- com.amazon.qa.extentReport.ExtentReport4 -->
+        </test-method> <!-- testdata -->
+      </class> <!-- com.amazon.qa.datafiles.Xls_Reader -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

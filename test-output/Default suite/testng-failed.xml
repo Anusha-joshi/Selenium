@@ -3,15 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.amazon.qa.extentReport.ExtentReport4">
+      <class name="com.amazon.qa.datafiles.Xls_Reader">
         <methods>
-          <include name="setup"/>
-          <include name="newWindow"/>
-          <include name="end"/>
-          <include name="teardown"/>
-          <include name="setExtent"/>
+          <include name="testdata"/>
         </methods>
-      </class> <!-- com.amazon.qa.extentReport.ExtentReport4 -->
+      </class> <!-- com.amazon.qa.datafiles.Xls_Reader -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

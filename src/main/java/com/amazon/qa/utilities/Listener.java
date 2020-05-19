@@ -4,7 +4,7 @@ import org.testng.ITestListener;
 import org.testng.ITestResult;
 import org.testng.TestListenerAdapter;
 
-public class Listener implements  ITestListener
+public class Listener implements ITestListener
 
 {
 

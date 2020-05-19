@@ -43,8 +43,9 @@ public class LoginPage extends BaseClass
 	{
 	
 		Actions a=new Actions(driver);
-		a.moveToElement(moveelement).perform();
+		a.moveToElement(SignInButton).build().perform();
 		Thread.sleep(3000);
+		//driver.switchTo().newWindow(windowType.)
 	}
 	
 	public  void login() throws InterruptedException

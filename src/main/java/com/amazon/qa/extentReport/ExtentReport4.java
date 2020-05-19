@@ -43,7 +43,7 @@ public class ExtentReport4
 		
 		System.out.println("hello");
 		String dat=new SimpleDateFormat("yyyymmddhhmmss").format(new Date());
-		extenthtmlreport=new ExtentHtmlReporter("D:/RESTAPI/SeleniumPractic/test-output/myhtmlreport+dat.html");
+		extenthtmlreport=new ExtentHtmlReporter("D:/RESTAPI/SeleniumPractic/test-output/myhtmlreport"+dat+".html");
 		
 		  extenthtmlreport.config().setDocumentTitle("Automation report"); //Title of
 		  extenthtmlreport.config().setReportName("Functional");// set the

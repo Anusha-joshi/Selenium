@@ -11,7 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 
 import com.amazon.qa.utilities.TimeUtils;
-import com.amazon.qa.utilities.WebEvenListner;
+
 
 public class BaseClass 
 {
@@ -19,7 +19,7 @@ public class BaseClass
 	public static WebDriver driver;
 	public static Properties p;
 	public static EventFiringWebDriver e;
-	public static WebEvenListner l;
+	//public static WebEvenListner l;
 	
 	public BaseClass()
 	{
